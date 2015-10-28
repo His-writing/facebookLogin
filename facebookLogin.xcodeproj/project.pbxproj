@@ -16,7 +16,7 @@
 		4461B3E01BDF234100B76E6C /* facebookLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461B3DF1BDF234100B76E6C /* facebookLoginTests.m */; };
 		4461B3EB1BDF234100B76E6C /* facebookLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4461B3EA1BDF234100B76E6C /* facebookLoginUITests.m */; };
 		4461B3FA1BDF235700B76E6C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4461B3F81BDF235700B76E6C /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
-		4461B3FB1BDF235700B76E6C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4461B3F91BDF235700B76E6C /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		44693F271BE05B5F00FD5D93 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44693F261BE05B5F00FD5D93 /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		4461B3EA1BDF234100B76E6C /* facebookLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = facebookLoginUITests.m; sourceTree = "<group>"; };
 		4461B3EC1BDF234100B76E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4461B3F81BDF235700B76E6C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		4461B3F91BDF235700B76E6C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		44693F261BE05B5F00FD5D93 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4461B3FB1BDF235700B76E6C /* FBSDKLoginKit.framework in Frameworks */,
+				44693F271BE05B5F00FD5D93 /* FBSDKLoginKit.framework in Frameworks */,
 				4461B3FA1BDF235700B76E6C /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,8 +87,8 @@
 		4461B3B91BDF234100B76E6C = {
 			isa = PBXGroup;
 			children = (
+				44693F261BE05B5F00FD5D93 /* FBSDKLoginKit.framework */,
 				4461B3F81BDF235700B76E6C /* FBSDKCoreKit.framework */,
-				4461B3F91BDF235700B76E6C /* FBSDKLoginKit.framework */,
 				4461B3C41BDF234100B76E6C /* facebookLogin */,
 				4461B3DE1BDF234100B76E6C /* facebookLoginTests */,
 				4461B3E91BDF234100B76E6C /* facebookLoginUITests */,

@@ -30,13 +30,16 @@
     
     //  logInWithReadPermissions:@[@"public_profile", @"user_friends"]
     
+    //  logInWithReadPermissions:@[@"public_profile", @"user_friends"]
+    
     FBSDKLoginManager *login = [[FBSDKLoginManager alloc] init];
-
-//    login.loginBehavior=FBSDKLoginBehaviorSystemAccount;
+    
+    
+    //   login.loginBehavior=FBSDKLoginBehaviorSystemAccount;
+    
     
     [login
      logInWithPublishPermissions:nil
-    
      
      handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
          if (error) {
@@ -92,6 +95,7 @@
              
          }
      }];
+    
     
     
     //    if ([FBSDKAccessToken currentAccessToken]) {
